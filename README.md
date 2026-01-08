@@ -12,7 +12,7 @@ ESP32-based seat occupancy system using IR sensors and OLED display with registe
 
 ## Hardware Components
 
-- **Microcontroller**: ESP32 Development Board (ESP32-WROOM-32) ⚠️ *Not STM32*  
+- **Microcontroller**: ESP32 Development Board (ESP32-WROOM-32) 
 - **Display**: OLED Display (I2C)  
 - **Sensors**: IR Proximity Sensors (4×)  
 - **GPIO Configuration**:  
