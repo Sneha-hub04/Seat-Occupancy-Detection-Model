@@ -21,13 +21,9 @@ ESP32-based seat occupancy system using IR sensors and OLED display with registe
 - **Power Supply**: 5V USB / External Adapter
 - 
 ## System Architecture
-+-------------+ +-------------+ +------------------+
 | IR Sensors | ---> | ESP32 | ---> | OLED Display |
 | (GPIO + I2C)| | (Register | | (4×4 Seat Matrix)|
-| | | Level GPIO)| +------------------+
-+-------------+ +-------------+
-
-
+| | | Level GPIO)| 
 ## Seat Matrix Representation
 
 - Each block in the OLED represents a seat  
